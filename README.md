@@ -34,6 +34,14 @@ Instructions on how to test this solution can be found on the blog.
 
 ### Deployment instructions
 
+Create a Python virtual environment and install the necessary libraries:
+
+```
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+```
+
 If this is your first time deploying a CDK Stack in your account, run:
 
 ```
